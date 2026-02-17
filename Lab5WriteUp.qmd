@@ -92,7 +92,7 @@ Note that the original donor of the THP-1 cell line was a 1-year-old Japanese bo
 ### Part A 
 Go to the website and download the source data [https://www.nature.com/articles/s41467-025-68063-y#Sec30](https://www.nature.com/articles/s41467-025-68063-y#Sec30).
 
-Describe the process -- do not leave out any steps -- for how you can load the data for Figures 3b and 3d from the manuscript into `R`. 
+Describe the process -- do not leave out any steps -- for how you can load the data for Figure 3b from the manuscript into `R`. 
 
 **Hint**: You can use packages like `readxl` [@readxl] but you will find it substantially easier to open the `.xls` file using your computer's spreadsheet software and create a new `.csv` file with the data you need.
 
@@ -138,15 +138,6 @@ Compute a table containing relevant numerical summaries for Figure 3b.
 
 **Hint**: I would use `group_by(...)` and `summarize(...)` to complete this. Don't forget to use the proper formatting using `knitr::kable(...)` as described in the Quarto Cheatsheet.
 
-### Part C
-Recreate Figure 3d as depicted in the paper (see [https://www.nature.com/articles/s41467-025-68063-y#Fig3](https://www.nature.com/articles/s41467-025-68063-y#Fig3)). You can ignore the significance comparison because we haven't done that yet.
-
-**Hint**: I would use `geom_jitter(...)` and `geom_crossbar(...)` for Figure 3d. I also expect your plots to look nicer -- better labels, better scaling, etc. Don't forget to use the proper formatting using the syntax in the Quarto cheatsheet.
-
-### Part D
-Compute a table containing relevant numerical summaries for Figure 3d.
-
-**Hint**: I would use `group_by(...)` and `summarize(...)` to complete this. Don't forget to use the proper formatting using `knitr::kable(...)` as described in the Quarto Cheatsheet.
 
 # Ship Valuation
 
